@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Generate Password</h1>
+      <h3 class="passwordBox" id="display">click on Generate</h3>
+      <form id="form" class="form">
+        <label for="passRangeNumber">Password Length</label>
+        <div class="passRangeNumberContainer">
+          <input id="passRange" type="range" min="4" max="32" value="12" />
+          <input id="passRangeNumber" type="number" min="4" max="32" value="12" />
+        </div>
+        <button type="submit" class="buton">Generate</button>
+        <button type="button" onclick="copyClipboard()" class="butoncopy" id="btnCopy">Copy</button>
+      </form>
+    </div>
+  </body>
+</html>

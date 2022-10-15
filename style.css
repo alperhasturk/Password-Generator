@@ -1,0 +1,85 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+  background-color: #16213e;
+  color: #e94560;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.container {
+  background-color: #16213e;
+  padding: 5rem;
+  border-radius: 5rem;
+  box-shadow: 0 0 3rem #e94560;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  column-gap: auto;
+  row-gap: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.title {
+  text-align: center;
+  margin: 0rem;
+}
+label {
+  font-weight: bold;
+}
+
+.passRangeNumberContainer {
+  align-items: center;
+  display: flex;
+  padding: 2rem;
+}
+.passwordBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  background-color: #16213e;
+  color: #e94560;
+  padding: 2rem;
+  border: #e94560 solid 1px;
+  border-radius: 1.5rem;
+  height: 1rem;
+  width: 350px;
+}
+
+.buton {
+  grid-column: span 2;
+  background-color: transparent;
+  border: #e94560 solid 2px;
+  border-radius: 1.5rem;
+  color: #e94560;
+  padding: 1rem 1rem;
+}
+
+.buton:hover {
+  background-color: #e94560;
+  color: #16213e;
+}
+
+.butoncopy {
+  grid-column: span 2;
+  background-color: transparent;
+  border: #e94560 solid 2px;
+  border-radius: 1.5rem;
+  color: #e94560;
+  padding: 1rem 1rem;
+}
+
+.butoncopy:hover {
+  background-color: #e94560;
+  color: #16213e;
+}
